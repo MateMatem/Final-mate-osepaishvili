@@ -1,0 +1,75 @@
+body {
+  background-image: url("../img/tbc.jpg"), url("../img/backgroundone.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: top right, center top;
+  background-size: 150px 150px, cover;
+  padding: 150px 0 0 0;
+}
+
+
+
+
+  
+  .buttons {
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    animation: moveButtons 2s infinite alternate;
+  }
+  
+  
+  .common-btn {
+    margin-right: 10px;
+    font-size: 18px; 
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 12px 24px; 
+    transition: transform 0.2s, background-color 0.2s; 
+  }
+  
+
+  .news-btn {
+    font-size: 18px; 
+    padding: 12px 24px; 
+    background-color: blue; 
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05); 
+  }
+  
+  @keyframes moveButtons {
+    to {
+      transform: translate(3.5px, 3.5px);
+    }
+  }
+  
+  button a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+  }
+  .firsttext {
+    color: yellowgreen;
+  }
+  .instagram-btn {
+    display: inline-block;
+    width: 200px;
+    height: 200px; 
+    background-image: url("../img/instagram.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 50px; 
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .texttwo {
+    color: greenyellow;
+  }
